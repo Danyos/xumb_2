@@ -7,12 +7,12 @@
 
 // console.log(((5+5*2-2-1)/6)**4)
 
-// let x=7
-// let y=3
-// x=x+y
-// console.log(x)
-//  x=458
-// console.log(x)
+//let x=7
+//let y=3
+//x=x+y
+//console.log(x)
+ //x=458
+//console.log(x)
 //
 //
 //
@@ -38,19 +38,37 @@
 // grel
 
 // 1. x ev y textery poxel hakarak
-// let x=8
-// let y=14
-// let z=0
+
+//let x=8
+//let y=14
+//let z=0
+
+//x=14
+//y=8
 
 
+//z=+6
+//x=x+z
+//y=y-z
 
-
-// consol.log(x)
-// consol.log(y)
+//console.log(x)
+//console.log(y)
 
 // 2// tvery shur tal hakarak 
-// let x=8
-// let y=14
-// ........
-// consol.log(x)//14
-// consol.log(y)//8
+//let x=8
+//let y=14
+
+//x=14
+//y=8
+
+//x=x+6
+//y=y-6
+
+
+//console.log(x) //14
+//console.log(y) //8
+
+
+
+
+
