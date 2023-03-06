@@ -1,0 +1,9 @@
+.flor{
+    display: block;
+    width: 100px;
+    height: 20px;
+    border: 1px solid;
+}
+.activeFlor{
+    background: red;
+}
