@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        .error{
+            color: red;
+            display: block;
+            font-size: small;
+            font-variant: all-small-caps;
+        }
+    </style>
+</head>
+<body>
+<div>
+
+    <label for="firstName">firstName</label>
+    <input type="text" id="firstName">
+    <span class="error firstName-error"></span>
+</div>
+<div>
+
+    <label for="login">login</label>
+    <input type="text" id="login">
+    <span class="error login-error"></span>
+</div>
+<div>
+
+    <label for="psw">Password</label>
+    <input type="password" id="psw">
+    <span class="error psw-error"></span>
+</div>
+
+<button onclick="takeInfo()">Send</button>
+
+
+
+
+
+
+
+
+<script src="./script.js"></script>
+</body>
+</html>
