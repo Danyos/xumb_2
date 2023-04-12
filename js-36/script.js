@@ -49,5 +49,14 @@ function registerinfo() {
 }
 
 function Logininfo() {
-    alert("login")
+    let    ussname=document.querySelector('#l_username').value
+    let    psw=document.querySelector('#l_psw').value
+
+    let x=userList.find(res=>res.username.toLowerCase()===ussname.toLowerCase() && res.password===psw)
+    if (x) {
+        window.location.href = 'http://google.com'
+    } else {
+        alert("username or password is wrong")
+    }
+
 }
